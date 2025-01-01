@@ -14,10 +14,16 @@
         --mui-palette-gray-5: #313244;
         --mui-palette-text-primary: #cdd6f4;
     }
+    .mui-style-1jbuvjs {
+        background-color: #313244;
+    }
     [data-mui-color-scheme="light"] {
         --mui-palette-background-default: #181825;
         --mui-palette-gray-4: #313244;
         --mui-palette-gray-5: #313244;
         --mui-palette-text-primary: #cdd6f4;
+    }
+    .mui-style-jhlwie {
+        background-color: #313244;
     }
 }
