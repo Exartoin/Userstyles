@@ -1,29 +1,55 @@
-/* ==UserStyle==
-@name           Catppuccin Mocha playerok
-@namespace      Catppuccin Mocha playerok
-@version        1.0.1
-@description    Userstyle for playerok.com
-@author         Exartoin
-@license        MIT
-==/UserStyle== */
-
 @-moz-document domain("playerok.com") {
     [data-mui-color-scheme="dark"] {
-        --mui-palette-background-default: #181825;
-        --mui-palette-gray-4: #313244;
-        --mui-palette-gray-5: #313244;
-        --mui-palette-text-primary: #cdd6f4;
+        --mui-palette-background-default: #181825; /* Цвет фона страницы */
+        --mui-palette-gray-4: #313244; /* Цвет для всякой хуйни */
+        --mui-palette-gray-5: #313244; /* Цвет для всякой хуйни */
+        --mui-palette-text-primary: #cdd6f4; /* Цвет текста */
+        .mui-style-1jbuvjs {
+            background-color: #313244;  /* Нахуй бля это ёпта нахуй там бля когда товар нахуй продал ёпта способ выдачи есть короче нахуй там блять цвет фона нахуй меняет ёпта*/
+        }
+        .mui-style-1yr5h59 svg {
+            color: #9399b2 !important; /* Цвет ебучих кнопок вверху страницы. Кнопка чаты нахуй кнопка продать блять */
+        }
+        .mui-style-1yr5h59 .Title {
+            color: #cdd6f4 !important; /* Цвет ебучего текста под ебаными кнопками вверху страницы. Кнопка чаты нахуй кнопка продать блять */
+        }
+        .mui-style-ve8ujc {
+            background-color: #313244 !important; /* Цвет фона поисковой строки нахуй */
+        }
+        .mui-style-1cdmbbw {
+            color: #cdd6f4; /* Цвет текста ебаного. Типо нахуй там где колличество отзывов это бля вверху страницы нахуй бля ЁПТА */
+        }
+        .mui-style-qazx88 {
+            color: #cdd6f4; /* Цвет текста ебаного. Типо нахуй там где колличество отзывов это бля вверху страницы нахуй бля ЁПТА */
+        }
     }
-    .mui-style-1jbuvjs {
-        background-color: #313244;
-    }
-    [data-mui-color-scheme="light"] {
-        --mui-palette-background-default: #181825;
-        --mui-palette-gray-4: #313244;
-        --mui-palette-gray-5: #313244;
-        --mui-palette-text-primary: #cdd6f4;
-    }
-    .mui-style-jhlwie {
-        background-color: #313244;
+    [data-mui-color-scheme="light"] { /* Уродина недоделанная */
+        --mui-palette-background-default: #dce0e8; /* Цвет фона страницы */
+        --mui-palette-gray-4: #ccd0da; /* Цвет для всякой хуйни */
+        --mui-palette-gray-5: #ccd0da; /* Цвет для всякой хуйни */
+        --mui-palette-text-primary: #4c4f69; /* Цвет текста */
+        --mui-palette-blue-contrastText: #4c4f69; /* Цвет текста */
+        --mui-palette-blue-light: #acb0be; /* Цвет для всякой хуйни */ 
+        --mui-palette-blue-main: #acb0be; /* Цвет для всякой хуйни */
+        --mui-palette-blue-dark: #9ca0b0; /* Цвет для всякой хуйни */
+        --mui-palette-green-text: #40a02b; /* Цвет для всякой хуйни */
+        .mui-style-1yr5h59 svg {
+            color: #9ca0b0 !important; /* Цвет ебучих кнопок вверху страницы. Кнопка чаты нахуй кнопка продать блять */
+        }
+        .mui-style-1yr5h59 .Title {
+            color: #4c4f69 !important; /* Цвет ебучего текста под ебаными кнопками вверху страницы. Кнопка чаты нахуй кнопка продать блять */
+        }
+        .mui-style-ve8ujc {
+            background-color: #ccd0da !important; /* Цвет фона поисковой строки нахуй */
+        }
+        .mui-style-1cdmbbw {
+            color: #4c4f69; /* Цвет текста ебаного. Типо нахуй там где колличество отзывов это бля вверху страницы нахуй бля ЁПТА */
+        }
+        .mui-style-qazx88 {
+            color: #4c4f69; /* Цвет текста ебаного. Типо нахуй там где колличество отзывов это бля вверху страницы нахуй бля ЁПТА */
+        }
+        .mui-style-jhlwie {
+            background-color: #ccd0da; /* Нахуй бля это ёпта нахуй там бля когда товар нахуй продал ёпта способ выдачи есть короче нахуй там блять цвет фона нахуй меняет ёпта*/
+        }
     }
 }
