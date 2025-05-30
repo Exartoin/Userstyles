@@ -22,6 +22,9 @@
         .mui-style-qazx88 {
             color: #cdd6f4; /* Цвет текста ебаного. Типо нахуй там где колличество отзывов это бля вверху страницы нахуй бля ЁПТА */
         }
+        .mui-style-f6trss {
+            background-color: #313244 !important;
+        }
     }
     [data-mui-color-scheme="light"] { /* Уродина недоделанная */
         --mui-palette-background-default: #dce0e8; /* Цвет фона страницы */
